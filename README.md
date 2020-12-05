@@ -13,7 +13,7 @@ For reference, see the ["Screenshots" section](#screenshots) below.
 
 The website must consist of 7 pages total, including:
 
-* A [landing page](#landing-page) containing:
+* A [landing page](..\web-design-challenge\HW\Instructions\Images\landingResize.png) containing:
   * An explanation of the project.
   * Links to each visualizations page. There should be a sidebar containing preview images of each plot, and clicking an image should take the user to that visualization.
 * Four [visualization pages](#visualization-pages), each with:
