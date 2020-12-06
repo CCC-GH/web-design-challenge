@@ -1,5 +1,7 @@
 HW11-Web (HTML and CSS Homework)
- 
+
+[Wether](HW/WebVisualizations/Resources/equatorsign.png
+
 ## Latitude - Latitude Analysis Dashboard with Attitude
 
 For this homework, created a visualization dashboard website using visualizations we've created in a past assignment. Specifically, we'll be plotting weather data.
