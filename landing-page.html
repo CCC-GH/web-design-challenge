@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<!-- Header -->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<div class='container bg-light'>
+    <div class='row'>
+        <div class='col auto'>
+            <nav class="navbar navbar-expand-lg navbar-light bg-white nav-fill ">
+                <!-- "Latitude" Tab -->
+                <a class="text-info navbar-brand nav-link active text-light bg-info" href="landing-page.html"><strong>Latitude</strong></a>
+                <!-- Hamburger Button -->
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                    <div class="navbar-nav">
+                        <a class="dropdown-item" href=".\WebVisualizations\assets\Scatter_MaxTemp.png"><strong>Max Temprature</strong></a>
+                        <a class="dropdown-item" href=".\WebVisualizations\assets\Scatter_Humidity.png"><strong>Humidity</strong></a>
+                        <a class="dropdown-item " href=".\WebVisualizations\assets\Scatter_Cloudiness.png"><strong>Cloudiness</Strong></a>
+                        <a class="dropdown-item " href=".\WebVisualizations\assets\Scatter_WindSpeed.png"><strong>Wind Speed</strong></a>
+                        <a class="dropdown-item " href=".\WebVisualizations\Visualizations\comparison-lg.png"><strong>Comparison</strong></a>
+                        <a class="dropdown-item " href=".\WebVisualizations\Visualizations\data-lg.png"><strong>Data</strong></a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Body -->
+
+    <body>
+        <div class='row bg-white'>
+            <div class='col '>
+                <h1 class="text-info "><strong>Summary: Latitude vs. X</strong></h1>
+                <hr>
+                <h5 class="mt-auto "><strong>City Latitude vs. Max Temperature</strong></h5>
+                <div class='row'>
+
+                    <img class="mr-3 img-fluid " src=".\WebVisualizations\assets\Scatter_MaxTemp.png" alt="Generic placeholder image " style="width: auto; height: 250px; ">
+                    <div class='col '>
+                        <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish the analysis, we first pulled data from the Open Weather Map API to assemble a dataset on over 500 cities.</p>
+                    </div>
+                </div>
+                <br>
+                <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at incuded: temprature, cloidness, windspeed and humidity. This site provides the source data and visualizations created
+                    as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+            </div>
+
+            <div class='col ml-auto '>
+                <h1 class="text-info "><strong>Visualizations</strong></h1>
+                <hr>
+                <div class='row'>
+                    <div class='col'>
+                        <a class="background background-success " href=".\WebVisualizations\assets\Scatter_MaxTemp.png">
+                            <img class="mr-3 img-fluid " src=".\WebVisualizations\assets\Scatter_MaxTemp.png " alt="Generic placeholder image " style="width: auto; height: 250px; ">
+                        </a>
+
+                    </div>
+                    <div class='col'>
+                        <a class="background background-success " href=".\WebVisualizations\assets\Scatter_Humidity.png">
+                            <img class="mr-3 img-fluid " src=".\WebVisualizations\assets\Scatter_Humidity.png " alt="Generic placeholder image " style="width: auto; height: 250px; ">
+                        </a>
+                    </div>
+                </div>
+                <div class='row'>
+                    <div class='col'>
+                        <a class="background background-success " href="/.\WebVisualizations\assets\Scatter_Cloudiness.png">
+                            <img class="mr-3 img-fluid " src=".\WebVisualizations\assets\Scatter_Cloudiness.png " alt="Generic placeholder image " style="width: auto; height: 250px; ">
+                        </a>
+                    </div>
+                    <div class='col'>
+                        <a class="background background-success " href=".\WebVisualizations\assets\Scatter_WindSpeed.png">
+                            <img class="mr-3 img-fluid " src=".\WebVisualizations\assets\Scatter_WindSpeed.png " alt="Generic placeholder image " style="width: auto; height: 250px; ">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+        <br>
+        <div class='row bg-info border-top border-success' style="border: width 25px ">
+            <div class='col'>
+                <footer class="footer ">
+                    <div class="container text-white text-left ">
+                        <span class=''><strong>NU HW11-Web (HTML and CSS Homework)</strong></span>
+                    </div>
+                </footer>
+            </div>
+        </div>
+</div>
+
+</htmL>
