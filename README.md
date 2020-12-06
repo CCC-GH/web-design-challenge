@@ -1,5 +1,4 @@
-.\WebVisualizations\Visualizations\comparison-lg.png# web-design-challenge
- HW11-Web (HTML and CSS Homework)
+HW11-Web (HTML and CSS Homework)
  
 ## Latitude - Latitude Analysis Dashboard with Attitude
 
@@ -14,7 +13,7 @@ The website must consist of 7 pages total, including:
 * A [landing page](HW/Instructions/Images/landingResize.png) containing:
   * An explanation of the project.
   * Links to each visualizations page. There should be a sidebar containing preview images of each plot, and clicking an image should take the user to that visualization.
-* Four [visualization pages](HW/Instructions/Images/visualize-lg), each with:
+* Four [visualization pages](HW/Instructions/Images/visualize-lg.png), each with:
   * A descriptive title and heading tag.
   * The plot/visualization itself for the selected comparison.
   * A paragraph describing the plot and its significance.
@@ -32,4 +31,4 @@ At the top of every page, this is a navigation menu that:
 * Has the name of the site on the left of the nav which allows users to return to the landing page from any page.
 * Contains a dropdown menu on the right of the navbar named "Plots" that provides a link to each individual visualization page.
 * Provides two more text links on the right: "Comparisons," which links to the comparisons page, and "Data," which links to the data page.
-* Is responsive (using media queries). The nav must have similar behavior as the screenshots ["Navigation Menu" section](#navigation-menu) (notice the background color change).
+* Is responsive (using media queries). The nav must have similar behavior as the screenshots ["Navigation Menu" section](HW/Instructions/Images/nav-lg.png) (notice the background color change).
