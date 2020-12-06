@@ -1,6 +1,6 @@
 # HW11-Web (HTML and CSS Homework)
 
-![](/WebVisualizations/Resources/equatorsign.png)  ![](/WebVisualizations/Resources/HomepageThumb_Large.PNG)  ![](/WebVisualizations/Resources/HomepageThumb_Small.PNG)
+![](/WebVisualizations/Resources/equatorsign.png)    ![](/WebVisualizations/Resources/HomepageThumb_Large.PNG)    ![](/WebVisualizations/Resources/HomepageThumb_Small.PNG)
 
 ## Latitude - Latitude Analysis Dashboard with Attitude
 
