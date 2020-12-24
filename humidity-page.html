@@ -20,7 +20,7 @@
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
                     <div class="navbar-nav">
                         <a class="dropdown-item" href="max_temp-page.html"><strong>Max Temprature</strong></a>
-                        <a class="dropdown-item" href="mumidity-page.html"><strong>Humidity</strong></a>
+                        <a class="dropdown-item" href="humidity-page.html"><strong>Humidity</strong></a>
                         <a class="dropdown-item " href="cloudiness-page.html"><strong>Cloudiness</Strong></a>
                         <a class="dropdown-item " href="windspeed-page.html"><strong>Wind Speed</strong></a>
                         <a class="dropdown-item " href=".\WebVisualizations\Visualizations\comparison-lg.png"><strong>Comparison</strong></a>
@@ -35,19 +35,18 @@
     <body>
         <div class='row bg-white'>
             <div class='col '>
-                <h1 class="text-info "><strong>Summary: Latitude vs. X</strong></h1>
+                <h1 class="text-info "><strong>Humidity</strong></h1>
                 <hr>
-                <h5 class="mt-auto "><strong>City Latitude vs. Max Temperature</strong></h5>
+                <h5 class="mt-auto "><strong>City Latitude vs. Humidity</strong></h5>
                 <div class='row'>
 
                     <img class="mr-3 img-fluid " src=".\WebVisualizations\assets\Scatter_MaxTemp.png" alt="Generic placeholder image " style="width: auto; height: 250px; ">
                     <div class='col '>
-                        <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish the analysis, we first pulled data from the Open Weather Map API to assemble a dataset on over 500 cities.</p>
+                        <p>There is no clear relation between the humidity and latitude. Although, if we take a closer look, we can see that the humidity is between 60-100% in the cities that lie between 40deg S and 70deg N. We may need to further study
+                            the humidity data with the Longitude data to see how the oceans and land temperatures and cloud cover affect it.</p>
                     </div>
                 </div>
                 <br>
-                <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at incuded: temprature, cloidness, windspeed and humidity. This site provides the source data and visualizations created
-                    as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
             </div>
 
             <div class='col ml-auto '>
