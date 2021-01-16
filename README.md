@@ -11,7 +11,6 @@ In building this dashboard, created individual pages for each plot and a means b
 ### Website
 [GitHub Hosted Page](HW/Instructions/Images/landingResize.png)
 
-https://ccc-gh.github.io/web-design-challenge/
 The website must consist of 7 pages total, including:
 
 * A [landing page](HW/Instructions/Images/landingResize.png) containing:
